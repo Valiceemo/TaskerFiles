@@ -1,0 +1,67 @@
+<TaskerData sr="" dvi="1" tv="4.9u4m">
+	<Task sr="task379">
+		<cdate>1476571115541</cdate>
+		<edate>1492500228960</edate>
+		<id>379</id>
+		<nme>javaSetRingMode</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<label>Set %mode to 0, 1, 2 for silent,vibrate and sound respectively.</label>
+			<Str sr="arg0" ve="3">%mode</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3">(AudioManager) audio_manager</Str>
+			<Str sr="arg1" ve="3">CONTEXT</Str>
+			<Str sr="arg2" ve="3">getSystemService
+{Object} (String)</Str>
+			<Str sr="arg3" ve="3">"audio"</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3"/>
+			<Str sr="arg1" ve="3">audio_manager</Str>
+			<Str sr="arg2" ve="3">setRingerMode
+{} (int)</Str>
+			<Str sr="arg3" ve="3">%mode</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+</TaskerData>
